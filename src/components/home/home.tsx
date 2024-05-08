@@ -3,7 +3,7 @@ import Task from "../task/task";
 
 export function Home() {
   return (
-    <div className="flex justify-center items-center h-screen -z-20 bg-gray-100 relative">
+    <div className="flex justify-center items-center h-screen relative">
       <div className="bg-gradient-to-b from-blue-500 to-blue-400 rounded-3xl w-1/3 h-2/3 -rotate-6 absolute -z-10 shadow-lg"></div>
       <div className="bg-white rounded-3xl shadow-md flex flex-col gap-5 w-1/3 h-2/3 px-12">
         <p className="text-2xl font-bold mt-12">ToDo List</p>
