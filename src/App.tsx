@@ -1,5 +1,6 @@
-function App() {
-  return <div className="text-2xl text-red-500">Hi</div>
-}
+import { HomePage } from "./pages/home/home-page";
 
-export default App
+function App() {
+  return <HomePage />;
+}
+export default App;
